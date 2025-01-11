@@ -8,7 +8,7 @@ export type CertificateAuthority = 'google' | 'lets_encrypt'| 'ssl_com'
 export const CertificateAuthorityDisplay : Record<CertificateAuthority, string> = {
     google: 'Google',
     lets_encrypt: 'Let\'s Encrypt',
-    ssl_com: 'ssl.com',
+    ssl_com: 'SSL.com',
 }
 
 export type CloudflareCertInfo = {
